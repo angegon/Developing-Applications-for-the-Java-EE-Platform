@@ -50,8 +50,11 @@ public class Test {
         //System.out.println(resultado.anyMatch(e-> e.getSalario()>6000));
         
         //devuelve un empleado con menos de 35 años, que gane más de 1000
-        Optional<Empleado> op= resultado.filter(e-> e.getSalario()>1000 && e.getEdad()<35).findAny();
-        System.out.println(op.orElse(new Empleado("nulo", 0, 0)).getNombre());//orElse en caso de que el optional devuelva nulo, devuelve otra cosa.
+        //Optional<Empleado> op= resultado.filter(e-> e.getSalario()>1000 && e.getEdad()<35).findAny();
+        //System.out.println(op.orElse(new Empleado("nulo", 0, 0)).getNombre());//orElse en caso de que el optional devuelva nulo, devuelve otra cosa.
+        
+        //Método peek
+        resultado.peek(s->System.out.println(s.getNombre())).count();
     }
     
 }
