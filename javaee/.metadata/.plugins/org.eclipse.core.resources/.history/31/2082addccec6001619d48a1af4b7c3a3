@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="parametros" method="post">
+	Introduce tu nombre:
+	<input type="text" name="nombre" placeholder="Introduzca su nombre"></input>
+	<br/>
+	<input type="submit" value="enviar"></input>
+</form>
+</body>
+</html>

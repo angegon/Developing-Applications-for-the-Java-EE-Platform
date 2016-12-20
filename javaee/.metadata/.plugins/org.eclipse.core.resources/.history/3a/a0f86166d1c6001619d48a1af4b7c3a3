@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="CalculoTabla" method="post">
+		Introduce la tabla de que número quieres mostrar:
+		<input type="text" name="numero" placeholder="Introduzca un numero"/>
+		<br/></br>
+		<input type="submit" value="enviar"/>
+	</form>
+</body>
+</html>

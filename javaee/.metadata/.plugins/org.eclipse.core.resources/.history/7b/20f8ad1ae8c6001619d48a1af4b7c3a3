@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="colorpagina?color=azul">azul</a></br>
+<a href="colorpagina?color=rojo">rojo</a></br>
+<a href="colorpagina?color=amarillo">amarillo</a>
+</body>
+</html>
