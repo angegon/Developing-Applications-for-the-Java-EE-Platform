@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
-  <module moduleId="org.eclipse.jst.jee.server:04_tabla_multiplicar_parametros" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:13_ejemplo_jsp" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07_ejemplo_transferencia_de_control_entre_servlets" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:14_tabla_multiplicar_jsp" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:03_ejemplo_parametros" serverId="Tomcat v8.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:04_tabla_multiplicar" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:01_ejemplo_web" serverId="Tomcat v8.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:06_cambiar_colorfondo_pagina" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:08_ejemplo_fordward_login" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:02_tabla_multiplicar" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:09_redireccionamiento" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:04_tabla_multiplicar_parametros" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:10_atributos_peticion" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:11_contador_accesos" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:04_tabla_multiplicar" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:06_cambiar_colorfondo_pagina" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:12_validacion_sesion" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:05_ficha_profesor" serverId="Tomcat v8.0 Server at localhost"/>
 </modules>
