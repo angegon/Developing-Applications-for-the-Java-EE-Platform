@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="CalculoTabla.jsp" method="post">
+		Introduce el número del que quieres mostrar su tabla de multiplicar: <input
+			type="number" name="numero" placeholder="Introduzca un numero" /> <br /></br>
+		<input type="submit" value="enviar" />
+	</form>
+</body>
+</html>

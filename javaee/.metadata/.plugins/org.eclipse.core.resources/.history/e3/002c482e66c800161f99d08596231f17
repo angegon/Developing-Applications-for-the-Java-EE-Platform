@@ -1,0 +1,7 @@
+package javabeans;
+
+public class producto {
+	private String nombre;
+	private Double precio;
+	private String Categoria;
+}

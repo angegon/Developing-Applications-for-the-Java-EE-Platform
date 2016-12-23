@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;16_tabla_multiplicar_parametros_jsp/WebContent/CalculoTabla.jsp&apos; to &apos;calculotabla.jsp&apos;" description="Rename resource &apos;CalculoTabla.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/CalculoTabla.jsp" name="calculotabla.jsp" stamp="1482422848420" updateReferences="true"/>
+</session>

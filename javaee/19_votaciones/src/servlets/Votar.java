@@ -23,9 +23,11 @@ public class Votar extends HttpServlet {
 		//ServletContext sc = this.getServletContext();//Esto daría null, porque todavia no esta el objeto disponible
 		ServletContext sc = config.getServletContext();//Esto no
 		
-		int contador[] = new int[2];
+		int si=0;
+		int no=0;
 		//inicializamos el atributo global.
-		sc.setAttribute("contadorVotacion", contador);		
+		sc.setAttribute("contadorVotosSi", si);	
+		sc.setAttribute("contadorVotosNo", no);	
 	}
 
 
@@ -33,7 +35,8 @@ public class Votar extends HttpServlet {
 
 		ServletContext sc = this.getServletContext();
 		
-		int contadorVoto[];
+		int si;
+		int no;
 		int recuperarvoto = Integer.parseInt(request.getParameter("votacion"));
 
 		
@@ -41,14 +44,14 @@ public class Votar extends HttpServlet {
 		//Esto no es thread segure, para ello usaremos bloques sincronizados
 		//Para que un hilo complete la tarea, antes de que lo coja otro(hilo correspondería a usuario)
 		synchronized(sc){
-			contadorVoto = (int[])sc.getAttribute("contadorVotacion");
+			si = (int)sc.getAttribute("contadorVotosSi");
+			no = (int)sc.getAttribute("contadorVotosNo");
 			
-			if(recuperarvoto==0)
-				contadorVoto[0]++;
-			else
-				contadorVoto[1]++;
+			if(recuperarvoto==0) si++;
+			else if (recuperarvoto==1)no++;
 			
-			sc.setAttribute("contadorVotacion", contadorVoto);	
+			sc.setAttribute("contadorVotosSi", si);
+			sc.setAttribute("contadorVotosNo", no);
 		}		
 		
 		request.getRequestDispatcher("votacion.html").forward(request, response);

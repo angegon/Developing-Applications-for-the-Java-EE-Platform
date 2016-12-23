@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="comprobarPassword" method="post">
+<div style="float:left; background-color: green">
+	Nombre de usuario: <input type="text" name="usuario" placeholder="Introduce tu nombre de usuario"/>
+	</br>
+	Contraseña de usuario: <input type="password" name="password" placeholder="Introduce tu contraseña de usuario"/>
+	</br>
+	<input type="submit" value="Iniciar sesion"/>
+</div>	
+
+</form>
+</body>
+</html>

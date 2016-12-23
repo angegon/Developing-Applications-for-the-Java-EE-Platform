@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="votar" method="post">
+
+		<input type="radio" name="votacion" value="1"/>Si
+		</br></br>
+		<input type="radio" name="votacion" value="0"/>no
+		<br> </br> <input type="submit" value="Votar" />
+	</form>
+	</br>
+	</br>
+	<a href="resultados.jsp">Mostrar Resultados Votaciones</a>
+</body>
+</html>
