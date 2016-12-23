@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="11_contador_accesos">
-        <property name="context-root" value="11_contador_accesos"/>
-        <property name="java-output-path" value="/11_contador_accesos/build/classes"/>
-    </wb-module>
-</project-modules>

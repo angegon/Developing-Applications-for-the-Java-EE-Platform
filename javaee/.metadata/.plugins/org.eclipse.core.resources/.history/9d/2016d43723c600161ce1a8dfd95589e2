@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="02_tabla_multiplicar">
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <property name="context-root" value="02_tabla_multiplicar"/>
-        <property name="java-output-path" value="/02_tabla_multiplicar/build/classes"/>
-    </wb-module>
-</project-modules>

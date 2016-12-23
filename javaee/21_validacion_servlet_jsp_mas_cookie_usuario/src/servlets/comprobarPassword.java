@@ -1,8 +1,6 @@
 package servlets;
 
 import java.io.IOException;
-import java.time.LocalDateTime;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -26,11 +24,15 @@ public class comprobarPassword extends HttpServlet {
 		HttpSession hs = request.getSession();
 		
 		String usuario= request.getParameter("usuario");
+		 
+		String [] cb= null;
+		cb= request.getParameterValues("cookie");
 		
-		String [] cb=  request.getParameterValues("cookie");
-		
-		if (cb[0].equals("cookie")){
-			crearCookie(response, usuario);	
+		if (cb!=null){
+			
+				crearCookie(response, usuario);	
+			
+				
 		} else{
 			crearCookie(response, "");	
 		}
@@ -46,7 +48,6 @@ public class comprobarPassword extends HttpServlet {
 			//la contraseña ya va en el requesto, no hace falta ponerla, pero la ponemos...
 		}
 		
-		crearCookie(response, usuario);
 		
 		
 		//instanciamos al nuevo servlet llamando a su service, pasando los parametros request y response.
@@ -54,9 +55,9 @@ public class comprobarPassword extends HttpServlet {
 		
 	}
 	
-	private void crearCookie(HttpServletResponse response, String usuario){
+	private void crearCookie(HttpServletResponse response, String us){
 		
-		Cookie ck = new Cookie("usuario", usuario);
+		Cookie ck = new Cookie("usuario", us);
 		ck.setMaxAge(200000);
 		response.addCookie(ck);
 	}

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="03_ejemplo_parametros">
-        <wb-resource deploy-path="/" source-path="/WebContent"/>
-        <property name="context-root" value="03_ejemplo_parametros"/>
-        <property name="java-output-path" value="/03_ejemplo_parametros/build/classes"/>
-    </wb-module>
-</project-modules>

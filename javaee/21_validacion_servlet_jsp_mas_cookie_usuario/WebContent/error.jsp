@@ -9,6 +9,6 @@
 <body><% String s; 
 			s = request.getParameter("password");%>
 			<h1>La contraseña introducida <%=s%> no es correcta.	</h1>	
-			</br><a href='login.html'>Volver</a>
+			</br><a href='login.jsp'>Volver</a>
 </body>
 </html>

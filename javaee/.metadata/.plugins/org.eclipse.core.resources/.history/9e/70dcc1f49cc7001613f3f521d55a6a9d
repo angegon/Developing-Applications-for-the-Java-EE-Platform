@@ -1,9 +1,0 @@
-package javabeans;
-
-public class Ficha {
-
-	
-	private String nombre;
-	private String email;
-	private int telefono;
-}
