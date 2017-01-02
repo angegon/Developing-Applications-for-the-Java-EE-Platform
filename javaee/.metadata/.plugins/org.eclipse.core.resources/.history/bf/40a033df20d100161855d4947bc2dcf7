@@ -1,0 +1,57 @@
+package modelo;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class GestionContactos {
+	private String url="jdbc:mysql://localhost:3306/agenda";
+	private String user ="root";
+	private String pwd = "root";
+	private String driver ="com.mysql.jdbc.Driver";
+	
+	//aprovechamos el constructor para realizar la carga del
+	//driver
+	public GestionContactos(){
+		try {
+			Class.forName(driver);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+
+	public boolean ListarContactos(){
+		boolean res= false;		
+		try (Connection cn = DriverManager.getConnection(url, user, pwd)){
+			String sql = "select * from contactos";
+			PreparedStatement ps = cn.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			//next devuelve true si hay al menos uno.
+			res = rs.next();
+		}
+		catch (SQLException ex){
+			ex.printStackTrace();
+		}
+		return res;
+	}
+	
+	public boolean GuardarContacto(String nombre, String email, Integer telefono){
+		boolean res= false;		
+		try (Connection cn = DriverManager.getConnection(url, user, pwd)){
+            //Paso 2: Envio SQL
+            String sql="Insert into contactos (nombre,email,telefono) values('prueba1','ep1@gmail.com',123)";
+            Statement st=cn.createStatement();
+            st.execute(sql);            
+            System.out.println("Fila añadida!");
+		}
+		catch (SQLException ex){
+			ex.printStackTrace();
+		}
+		return res;
+	}
+}

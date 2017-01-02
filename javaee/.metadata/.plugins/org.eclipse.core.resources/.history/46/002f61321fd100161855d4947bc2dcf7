@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="25_agenda_web_profesor">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="25_agenda_web_profesor"/>
+        <property name="java-output-path" value="/25_agenda_web_profesor/build/classes"/>
+    </wb-module>
+</project-modules>

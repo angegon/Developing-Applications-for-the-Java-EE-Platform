@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;24_validacion_servlet_jsp_bbdd&apos;" deleteContents="true" description="Delete resource &apos;24_validacion_servlet_jsp_bbdd&apos;" element1="/24_validacion_servlet_jsp_bbdd" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1483381974426"/>
+</session>
