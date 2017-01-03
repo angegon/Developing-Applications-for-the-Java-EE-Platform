@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="27_agenda_mvc_con_login_y_vista_de_libros_desde_cero">
+        <property name="context-root" value="27_agenda_mvc_con_login_y_vista_de_libros_desde_cero"/>
+        <property name="java-output-path" value="/27_agenda_mvc_con_login_y_vista_de_libros_desde_cero/build/classes"/>
+    </wb-module>
+</project-modules>

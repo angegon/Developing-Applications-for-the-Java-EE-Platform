@@ -1,0 +1,49 @@
+package modelo;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import javabeans.Contacto;
+
+public class GestionLibros {
+	private String url = "jdbc:mysql://localhost:3306/libros";
+	private String user = "root";
+	private String pwd = "root";
+	private String driver = "com.mysql.jdbc.Driver";
+	
+	public GestionLibros() {
+		try {
+			Class.forName(driver);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public Boolean LoginLibreria(String usuario, String password) {
+		
+		boolean res = false;
+		
+ 		try (Connection cn = DriverManager.getConnection(url, user, pwd)) {
+			String sql = "select * from contactos where usuario=? and password=?";
+			PreparedStatement ps = cn.prepareStatement(sql);
+			ps.setString(1, usuario);
+			ps.setString(2, password);
+			ResultSet rs = ps.executeQuery();
+			// next devuelve true si hay al menos uno.
+			while (rs.next()){
+				res=true;
+			}
+			
+		} catch (SQLException ex) {
+			ex.printStackTrace();
+		}
+		return res;
+	}
+	
+	
+}

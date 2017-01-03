@@ -1,0 +1,17 @@
+package modelo;
+
+public class GestionLibros {
+	private String url = "jdbc:mysql://localhost:3306/libros";
+	private String user = "root";
+	private String pwd = "root";
+	private String driver = "com.mysql.jdbc.Driver";
+	
+	public GestionLibros() {
+		try {
+			Class.forName(driver);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

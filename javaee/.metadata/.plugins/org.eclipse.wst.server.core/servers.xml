@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="43">
-    <list key="modules" value0="21_validacion_servlet_jsp_mas_cookie_usuario::org.eclipse.jst.jee.server:21_validacion_servlet_jsp_mas_cookie_usuario::jst.web::3.1" value1="24_validacion_bbdd::org.eclipse.jst.jee.server:24_validacion_bbdd::jst.web::3.1"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="52">
+    <list key="modules" value0="26_agenda_web_profesor_MVC::org.eclipse.jst.jee.server:26_agenda_web_profesor_MVC::jst.web::3.1"/>
   </server>
 </servers>

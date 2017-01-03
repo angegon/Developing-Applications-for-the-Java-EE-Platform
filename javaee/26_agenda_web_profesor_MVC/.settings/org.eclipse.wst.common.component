@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="25_agenda_web_profesor">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-connector-java-5.1.18-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Z:/software/mysql/mysql-connector-java-5.1.18-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/25_agenda_web_profesor/build/classes"/>
+        <property name="context-root" value="26_agenda_web_profesor_MVC"/>
+    </wb-module>
+</project-modules>

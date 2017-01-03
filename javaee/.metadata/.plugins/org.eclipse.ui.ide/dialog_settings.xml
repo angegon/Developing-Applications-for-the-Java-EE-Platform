@@ -5,6 +5,11 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\cursoSepeJavaMios\javaee\05_ficha_profesor"/>
+			<item value="D:\cursoSepeJavaMios\javaee\03_ejemplo_parametros"/>
+			<item value="D:\cursoSepeJavaMios\javaee\02_tabla_multiplicar"/>
+			<item value="D:\cursoSepeJavaMios\javaee\15_validacion_servlet_jsp"/>
+			<item value="D:\cursoSepeJavaMios\javaee\20_contador_accesos_cookie"/>
 			<item value="D:\Angel\ejercicios\cursoSepeJavaMios\javaee\19_votaciones"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
